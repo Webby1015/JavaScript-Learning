@@ -18,3 +18,9 @@ console.log(typeof x)
 
 x=x-2
 console.log(x,typeof x)
+
+let y= parseInt('123 abhishek')
+// parse int will convert a string into numbers , it will ignore all the letters after it incounters one
+console.log(parseInt('123 abhishek'))
+// but
+console.log(parseInt('n123 abhishek'))
