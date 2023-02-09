@@ -33,5 +33,19 @@ let alien = {
     }
 }
 for ( i in alien){
-    console.log(alien[i])
+    console.log(i,alien[i])
+}
+
+// the for in loops only give us keys
+
+// for of loop 
+// its like for in loop but it returen only value
+console.log("\nfor of loop\n")
+let a=[1,2,3,4,34,34]
+for(let i of a){
+    console.log(i)
+}
+// vs for i loop
+for(let i in a){
+    console.log(i)
 }
