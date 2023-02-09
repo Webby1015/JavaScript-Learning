@@ -20,3 +20,18 @@ for (let i=0 ;i<5;i++){
     console.log(i," bye")
 
 }
+
+// for in loop 
+console.log("\nfor in loop\n")
+let alien = {
+    name : "navin",
+    tech : "js",
+    laptop : {
+        cpu : 'i7',
+        ram: 8,
+        brand: 'msi'
+    }
+}
+for ( i in alien){
+    console.log(alien[i])
+}
